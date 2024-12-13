@@ -18,7 +18,7 @@ Skills and Expertise I've learned throughout my journey
 My Previous projects that i've done during my journey
 
 5. SDG 
-Sectio which solely focuses on addressing SDG 3 (Good Health and Well Being), and my way of advocating and approaching my chosen SDG
+Section which solely focuses on addressing SDG 3 (Good Health and Well Being), and my way of advocating and approaching my chosen SDG
 
 6. Contact Me
 A section where you can find my social media links where you can contact me.
