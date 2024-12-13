@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+<style>
+
+    .column {
+        height: 150px;
+        width: 250px;
+
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>Tite</h1>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="skills.html">Skills and Expertise</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="journal.html">SGD</a>
+            <a href="contactme.html">Contact Me</a>
+        </div>
+        
+    </div>
+
+
+    <!-- Profile Card -->
+    <div class="profile-card">
+        <h2>Ebora, Justin Miguel E.</h2>
+        <p class="location">Batangas, Philippines</p>
+        <p>I'm 19 years old and currently enrolled as a BSIT student at Batangas State University. I'm an aspiring Cybersecurity Specialist and Data Analyst</p>
+
+        <div class="social-icons">
+            <a href="mailto:jmebora11@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/bluiji" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/mmiguelito32" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <!-- Image Text Section -->
+    <div class="image-text-section">
+        <img src="muntite.jpg" style="width: 250px;height: 250px;" >
+        <p>From an early age, I found a fascination with programming, spending countless hours exploring how technology works, dissecting codes and creating small projects that nurtured my curiosity.</p>
+        <p>As my skills grew, so did my passion for understanding and protecting the systems that power our digital world. Cybersecurity became not just a career path but a mission to ensure safety in an increasingly interconnected society.</p>
+        <p>Beyond technology, I am deeply committed to the United Nations' Sustainable Development Goal 3: Good Health and Wellbeing. I believe that health is the foundation of a thriving society, and technology can play a pivotal role in achieving this goal. Whether it’s through advancing telemedicine, ensuring data privacy in healthcare systems, or promoting mental health awareness, I strive to contribute to a healthier and more equitable world.</p>
+        <p>Explore my journey, projects, and thoughts as I continue to grow and learn in both technology and social responsibility.</p>
+    </div>
+
+    <!-- Scrollable Columns -->
+    <div class="container">
+        <div class="column" onclick="window.location.href='about.html'">
+            <h3>About me</h3>
+            <p>Get to know me better</p>
+        </div>
+        <div class="column" onclick="window.location.href='skills.html'">
+            <h3>Skills and Expertise</h3>
+            <p>Skills I've gathered throughout my journey </p>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <div class="column" onclick="window.location.href='portfolio.html'">
+            <h3>Portfolio</h3>
+            <p>Small projects I've done throughout my studies</p>
+        </div>
+        <div class="column" onclick="window.location.href='contactme.html'">
+            <h3>SGD</h3>
+            <p>Kurimaw</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
